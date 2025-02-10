@@ -39,7 +39,7 @@ The dataset comprises mass spectrometry-based assay measurements designed to cap
 - **Learning Rate**: Initially 0.001, with exponential decay
 - **Epochs**: 100
 - **Batch Size**: 16
-These parameters were optimized through extensive testing to balance between computational efficiency and model accuracy.
+- These parameters were optimized through extensive testing to balance between computational efficiency and model accuracy.
 
 ## Results
 The model demonstrates strong predictive performance with a Spearman correlation coefficient of 0.60908 on the test set. This high level of accuracy indicates the model's effectiveness in capturing and understanding the nuanced influences of amino acid sequences on protein stability.
