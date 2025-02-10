@@ -33,12 +33,12 @@ The dataset comprises mass spectrometry-based assay measurements designed to cap
 - **SciPy**: For Spearman correlation computation.
 
 ## Hyperparameters
-Embedding Dimension: 128
-LSTM Units: 256 (first layer), 128 (second layer)
-Dropout Rate: 0.5
-Learning Rate: Initially 0.001, with exponential decay
-Epochs: 100
-Batch Size: 16
+-**Embedding Dimension**: 128
+-**LSTM Units**: 256 (first layer), 128 (second layer)
+-**Dropout Rate**: 0.5
+-**Learning Rate**: Initially 0.001, with exponential decay
+-**Epochs**: 100
+-**Batch Size**: 16
 These parameters were optimized through extensive testing to balance between computational efficiency and model accuracy.
 
 ## Results
